@@ -1,4 +1,4 @@
-#อ่านภาพ
+#อ่านภาพ update
 import cv2
 img = cv2.imread("image/cat.jpg")
 print(type(img.ndim))
