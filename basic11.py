@@ -4,7 +4,7 @@ import cv2
 img = cv2.imread("image/cat.jpg")
 
 #กำหนดขนาด
-imgresize = cv2.resize(img,(700,700))
+imgresize = cv2.resize(img,(700,700))   # Anucha
 
 
 #วาดสี่เหลี่ยม
