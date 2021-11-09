@@ -3,7 +3,7 @@ import cv2
 import datetime
 
 cap = cv2.VideoCapture(0)
-while (cap.isOpened()):
+while (cap.isOpened()):  
     check , frame = cap.read() #รับภาพจากกล้อง frame ต่อ frame
 
     if check == True :
