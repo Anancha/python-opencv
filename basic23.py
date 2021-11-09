@@ -1,6 +1,7 @@
 import cv2 
 #อ่านวิดีโอ
-cap = cv2.VideoCapture("image/Mark.mp4")
+# cap = cv2.VideoCapture("image/Mark.mp4")
+cap = cv2.VideoCapture(0)   # add by Anucha
 
 #อ่านไฟล์สำหรับ classification
 eye_cascade=cv2.CascadeClassifier("Detect/haarcascade_eye_tree_eyeglasses.xml")

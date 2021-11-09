@@ -1,6 +1,7 @@
 import cv2 
 #อ่านวิดีโอ
-cap = cv2.VideoCapture("image/Video.mp4")
+# cap = cv2.VideoCapture("image/Video.mp4")   # Original code
+cap = cv2.VideoCapture(0)  # Add by Anucha 
 
 #อ่านไฟล์สำหรับ classification
 face_cascade=cv2.CascadeClassifier("Detect/haarcascade_frontalface_default.xml")

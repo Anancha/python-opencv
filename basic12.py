@@ -9,7 +9,7 @@ imgresize = cv2.resize(img,(700,700))
 
 #วาดวงกลม
 # circle(ภาพ,ตำแหน่งจุดศูนย์กลางวงกลม (x,y),รัศมี,สี,ความหนา)
-cv2.circle(imgresize,(200,200),70,(0,0,255),-1)
+cv2.circle(imgresize,(200,200),90,(0,0,255),-1)
 
 cv2.imshow("Output",imgresize)
 cv2.waitKey(0)

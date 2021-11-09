@@ -1,8 +1,8 @@
 #ตรวจจับดวงตาและใบหน้า
 import cv2 
 #อ่านวิดีโอ
-cap = cv2.VideoCapture("image/Mark.mp4")
-
+# cap = cv2.VideoCapture("image/Mark.mp4")
+cap = cv2.VideoCapture(1)
 #อ่านไฟล์ xml
 face_cascade = cv2.CascadeClassifier("Detect/haarcascade_frontalface_default.xml")
 eye_cascade = cv2.CascadeClassifier("Detect/haarcascade_eye_tree_eyeglasses.xml")
